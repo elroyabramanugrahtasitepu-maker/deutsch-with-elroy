@@ -9,14 +9,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php");
     exit();
 }
-$host = "localhost"; 
-$user = "u960862048_roy"; 
-$pass = "Caracter_Cs321"; 
-$db   = "u960862048_elroy";
-$conn = new mysqli($host, $user, $pass, $db);
 
-// Memastikan teks yang mengandung karakter spesial tidak membuat sistem blank
-$conn->set_charset("utf8mb4");
 
 /* ==========================================
     Fungsi Pelacak Error Database
