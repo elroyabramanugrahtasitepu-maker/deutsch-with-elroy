@@ -2,11 +2,7 @@
 session_start();
 
 // Koneksi Database
-$host = "localhost"; 
-$user = "u960862048_roy"; 
-$pass = "Caracter_Cs321"; 
-$db   = "u960862048_elroy";
-$conn = new mysqli($host, $user, $pass, $db);
+
 
 // Cek koneksi
 if ($conn->connect_error) {
