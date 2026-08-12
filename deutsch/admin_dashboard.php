@@ -9,11 +9,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php");
     exit();
 }
-$host = "localhost"; 
-$user = "u960862048_roy"; 
-$pass = "Caracter_Cs321"; 
-$db   = "u960862048_elroy";
-$conn = new mysqli($host, $user, $pass, $db);
+
 
 /* ==========================================
     1. LOGIKA PROSES (CRUD UTUH - TIDAK ADA YANG DIHAPUS)
