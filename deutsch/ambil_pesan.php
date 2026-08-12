@@ -1,8 +1,7 @@
 <?php
 session_start();
 // Gunakan kredensial yang sudah kamu tentukan
-$host = "localhost"; $user = "u960862048_roy"; $pass = "Caracter_Cs321"; $db = "u960862048_elroy";
-$conn = new mysqli($host, $user, $pass, $db);
+
 
 // Cek sesi agar aman
 if (!isset($_SESSION['user_id'])) exit();
