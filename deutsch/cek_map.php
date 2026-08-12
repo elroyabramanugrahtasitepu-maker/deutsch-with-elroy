@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Koneksi ke database kamu
-$conn = new mysqli("localhost", "u960862048_roy", "Caracter_Cs321", "u960862048_elroy");
+
 
 if (!isset($_SESSION['user_id'])) { exit(); }
 
